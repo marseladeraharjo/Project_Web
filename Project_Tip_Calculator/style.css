@@ -1,0 +1,101 @@
+html {
+    font-size: 10px;
+    color: #292828;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #fcfcfc;
+}
+
+main {
+    max-width: 50rem;
+    margin: 2rem auto;
+    background: linear-gradient(30deg, #222831, #393e46);
+    padding: 3rem 1.6rem 6rem 1.6rem;
+    border-radius: 4rem;
+    box-shadow: 5px 5px 2px black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    padding-bottom: 3rem;
+    color: #eeeeee;
+} 
+
+section{
+    background-color: #d65a13;
+    font-size: 1.8rem;
+    margin-bottom: 1.6rem;
+    padding: 0 1.6rem;
+    border-radius: 1rem;
+    box-shadow: inset 3px 3px 5px black;
+}
+
+section > div {
+    padding: 1.64rem 0;
+}
+
+.bill {
+    display: flex;
+}
+
+.bill label {
+    flex: 1;
+}
+
+.bill input {
+    flex: 3;
+}
+
+input [type="number"] {
+    font-family: inherit;
+    background: #eeeeee;
+    font-size: 1.6rem;
+    border: 1px solid #222831;
+    border-radius: 0.5rem;
+    padding:  0.8rem 0 0.8rem 0.8rem;
+    box-shadow: inset 0 2px 2px lightgray;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.range {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #eeeeee;
+    margin-top: 1.2rem;
+    border-radius: 3rem;
+    outline-color: #393e46;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    background: #222831;
+    cursor: pointer;
+}
+
+.range::-moz-range-thumb {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    background: #222831;
+    cursor: pointer;
+    border: none;
+}
+
+.range::-moz-focus-outer {
+    border: 0;
+}
